@@ -1,0 +1,25 @@
+{
+  "name": "simple-rest",
+  "version": "1.0.0",
+  "description": "A Simple REST api in Node.js (with Express 4) (just to get a hang of it)",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/beingadityak/simple-rest.git"
+  },
+  "keywords": [
+    "rest",
+    "api",
+    "simple"
+  ],
+  "author": "beingadityak",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.0",
+    "express": "^4.15.0",
+    "mongoose": "^4.8.5"
+  }
+}

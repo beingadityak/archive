@@ -1,0 +1,21 @@
+{
+  "name": "tweet-bot",
+  "version": "1.0.0",
+  "description": "A simple twitter bot that uses \"Twit\" npm package for communicating with twitter API",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "twitter",
+    "bot",
+    "tweet"
+  ],
+  "author": "beingadityak",
+  "license": "ISC",
+  "dependencies": {
+    "request": "^2.79.0",
+    "twit": "^2.2.5"
+  }
+}

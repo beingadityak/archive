@@ -1,0 +1,23 @@
+{
+  "name": "github-trends",
+  "version": "1.0.0",
+  "description": "A Progressive Web App that shows the trending repositories in GitHub.",
+  "main": "service-worker.js",
+  "scripts": {
+    "sw" : "sw-precache --config=tools/precache.js --verbose"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/beingadityak/github-trends.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/beingadityak/github-trends/issues"
+  },
+  "homepage": "https://github.com/beingadityak/github-trends#readme",
+  "devDependencies": {
+    "sw-precache": "^5.2.0"
+  }
+}

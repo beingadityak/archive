@@ -1,0 +1,124 @@
+
+#content, #overlay {
+  position: absolute;
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+}
+
+#content {
+  background-size: 100% 100%;
+}
+
+#overlay {
+  pointer-events: none;
+/*   background-image: url("images/wahtaj2.jpg"); */
+  background : url("images/CT.jpg");
+  background-size: 100%;
+  opacity: 0;
+    -webkit-animation: black-part 4s;
+  -moz-animation: black-part 4s;
+  animation: black-part 4s;
+  position: fixed;
+}
+#overlay:after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  box-shadow: 0 0 1px 1px #fff;
+  -webkit-animation: white-part 1s;
+  -moz-animation: white-part 1s;
+  animation: white-part 1.5s;
+}
+
+@-webkit-keyframes black-part {
+  0% {
+    opacity: 1;
+  }
+  25% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@-moz-keyframes black-part {
+  0% {
+    opacity: 1;
+  }
+  25% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes black-part {
+  0% {
+    opacity: 1;
+  }
+  25% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@-webkit-keyframes white-part {
+  0% {
+    width: 0;
+    height: 0%;
+  }
+  75% {
+    width: 100%;
+    height: 0%;
+  }
+  100% {
+    width: 100%;
+    height: 100%;
+  }
+}
+@-moz-keyframes white-part {
+  0% {
+    width: 0;
+    height: 0%;
+  }
+  75% {
+    width: 100%;
+    height: 0%;
+  }
+  100% {
+    width: 100%;
+    height: 100%;
+  }
+}
+@keyframes white-part {
+  0% {
+    width: 0;
+    height: 0%;
+  }
+  75% {
+    width: 100%;
+    height: 0%;
+  }
+  100% {
+    width: 100%;
+    height: 100%;
+  }
+}
+html, body {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+}

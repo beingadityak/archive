@@ -1,0 +1,12 @@
+{
+    "autoload" : {
+      "psr-4" : {
+        "ShortR\\" : "app/ShortR"
+      }
+    },
+    "require": {
+        "slim/slim": "~2.0",
+        "illuminate/database": "5.0.*",
+        "phpseclib/mcrypt_compat": "^1.0"
+    }
+}

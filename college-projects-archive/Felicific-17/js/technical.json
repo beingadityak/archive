@@ -1,0 +1,63 @@
+data={
+	"ct": {	
+		
+			"first": {
+				"id": "",
+				"name": "QuizoWeb",
+				"tagline": "",
+				"description": "Beyond the realms of academics this event provides the opportunity to dust the cob webs from the corners of brains of emerging young nurtured technicians. So stretch your wrists get that kink out of your neck and prepare your fingers to fly",
+				"rules": "1.	Elimination Round: Both participants will be given a set of questions which will be based on web designing to check their knowledge of web designing.Qualification for the next round will be based on ranking. <br/>					Time Given: 30 Minutes.<br/> 					2.	Final Round: Team will have to create a small web site on a given definition.<br/> 					Time Given: 4 Hours. <br/>					Rules: <br/>					1.	Final result will be based on marks of both rounds.<br/> 					2.	Internet access will be allowed only for final Round. <br/>					3.	Participants can use any platform to design web site. No restriction on languages, frameworks or platforms.<br/>",
+				"teamsize": "2",
+				"date":"8th March 2016",
+				"time": "",
+				"venue": "",
+				"fees": "60 Rs/- per Team",
+				"contact": " Khushboo Mehta<br/>  						M.: 8000037733<br/> 						Email id: khushboomehta1995@gmail.com<br/> "    
+			},
+
+			"second": {
+				"id": "",
+				"name": "Hardcore gaming",
+				"tagline": "",
+				"description": "Need For Speed : <br/>				-The tournament will be knock out. The player who wins their 1st stage match advances to the next stage.<br/>				-The knockout continues till we get final 4 top scoring players for the semi finals.<br/>				-There will not be any match played for the third spot.<br/>				-Sprint Races will be played by 4 players in the first round.<br/>				<br/>				Counter Strike : <br/>				The tournament will be knock out. <br/>				The team which wins its 1st stage match advances to the next stage.<br/>				The knock out continues till we get final 4 top scoring teams for the semi finals.<br/>				There will not be any match played for the third spot.<br/>",
+				"rules": "<br/>Need For Speed : <br/>-Players must be present in the tournament area at the notifications schedule. Players are advised to be present a few minutes before the schedule to avoid any unpredictable delay. If the player is not present at the notification schedule, he shall be disqualified. <br/>-Players will be given 5 minutes to choose their car and tune them before racing. <br/>-Any argument with the co-ordinators will lead to disqualification of the participant.<br/><br/>Counter Strike : <br/>Match Format:<br/><br/>-Every team should have atmost 5 players. <br/>-Every prelims and quarters match will be played on one map with a total of 7 rounds. <br/>-For pre-semifinals team counter terrorist/terrorist will be decided on the basis of a trial round and the winner of that round gets to decide team. <br/>-The start money for the match will be $16000. <br/>-The team first to win 4 matches consecutively will be the winner of the match. <br/>-For the Semi-Finals total number of rounds will be 14 (7 each as a Counter Terrorists and Terrorists).<br/>-Finals: For the final round, there would be 20 rounds (10 each as terrorist and counter-terrorist). <br/>-For each round win, team will be rewarded 1 point. Tie Breaker:<br/>-There will be extra 7 rounds played on the same map and the team will start as the same as it finished in the normal rounds. <br/>-The start money for the tie breaker rounds will be $10000. <br/>-The team to win first 4 rounds total will be the winner of the match. <br/>-If a tie breaker also leads to a draw then 1 extra round will be played and the winner will be the winner of the match. Game Settings:<br/>-Use of Tactical Shield is strictly forbidden.If a team uses it intentionally or unintentionally, the team loses the round immediately. Intentional or unintentional use of bugs and/or exploits is strictly forbidden. Any questions regarding bugs and/or exploits must be brought to the tournament official present there. If a team is found to use bugs and/or exploits, the opponent team shall be declared as the winner of the match and a warning will be given to the team that used bugs and/or exploits by the tournament official. <br/>The following settings will be set on servers:<br/>Roundtime: 1 min 45 sec<br/>Freezetime: 5 sec<br/>Buytime: 20 sec<br/>Friendly Fire: On<br/>Rules: <br/><br/>-Players must be present in the tournament area with the whole team at the notifications schedule. Players are advised to be present a few minutes before the schedule to avoid any unpredictable delay. If the team is not present at the notification schedule, they shall be disqualified. <br/>-Teams will be given 1 minutes to configure their settings and after that use of console or change in settings will be strictly prohibited. <br/>-The seating arrangement is to the discretion of the tournament officials. <br/>-Players are allowed to bring their own mouse and headphones.Headphones will not be provided by the committee. <br/>-If one of the players is disconnected or crashed, he must come back in to the game as soon as possible and the round will be restarted. The team should be of 5 members and no change of players in the team is allowed after they have played their first match. <br/>-player can use their own usb mouse",
+				"teamsize": "<br/>Need For Speed : <br/>1<br/>Counter Strike : <br/>5<br/>",
+				"date":"8th March 2016",
+				"time": "",
+				"venue": "",
+				"fees": "Need For Speed :  <br/>30/- <br/>Counter Strike :  <br/>150/- per team <br/>",
+				"contact": "Jay Tanna <br/>Mobile:9033637371  <br/>Email id : jaytanna61@gmail.com <br/>"
+			},
+   
+			"third": {
+				"id": "",
+				"name": "Hardware Rush",
+				"tagline": "",
+				"description": "Test your hardware knowledge!",
+				"rules": "",
+				"teamsize": "2",
+				"date":"8th March 2016",
+				"time": "",
+				"venue": "",
+				"fees": "60/- per Team",
+				"contact": "Sagar Sheth<br/>Mobile: 9904375457"
+			},
+   
+			"forth": {
+				"id": "",
+				"name": "Code Cloning",
+				"tagline": "Unleash your talent to clone the code!!",
+				"description": "Convert the given code across various languages.",
+				"rules": "	<br/>1. Elimination Round: Participants will be provided question paper with fundamental questions of different programming languages and features. Top 10 teams will be given chance to participate in final round.<br/>Time given: 1 hour.<br/><br/>Final Round*: Participants will be given code snippets in one programming language (either in C or in Java). They shall be asked to transform code to perform same functionality in any other languages mentioned below. Code wont be hard but it will be tricky enough to check participants command over other programming languages.<br/>Time given: 2 hours.<br/>Languages allowed: C, C++, Java, PHP, C#, JavaScript, Python.<br/><br/>*Note: Participants are totally free to choose their languages from above mentioned list, to convert the code snippet in other language.<br/>1. Internet connection wont be provided for any of the rounds.<br/>2. Top 10 teams from Elimination round will participate in final round.<br/>3. Tie breaker: Indentation, Code Reuse and Use of Language Specific Features shall be preferred.",
+				"teamsize": "1 (Individual) or 2",
+				"date":"8th March 2016",
+				"time": "",
+				"venue": "",
+				"fees": "	60 per team",
+				"contact": "Soni Bansari H. <br/>M.: 8905562813 <br/>Email id: bansari13.bs@gmail.com<br/>"
+			}
+   
+		}
+	
+		
+	}

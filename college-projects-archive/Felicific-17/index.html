@@ -1,0 +1,342 @@
+<html>
+<head>
+  <title>Felicific 2017</title>
+
+ <script type="text/javascript">
+
+	 if((window.screen.availHeight <= 853 && window.screen.availWidth <= 480) || (window.screen.availWidth <= 853 && window.screen.availHeight <= 480)) {
+             window.location = "m/index.html";
+         }
+ 		if((window.innerHeight <= 853 && window.innerWidth <= 480) || (window.innerWidth <= 853 && window.innerHeight <= 480)) {
+             window.location = "m/index.html";
+         }
+	 
+</script>
+
+
+<style>
+
+#pl1 { background: url("images/Texture.jpg") no-repeat -9999px -9999px; }
+#pl2 { background: url("images/Main.png") no-repeat -9999px -9999px; }
+#pl3 { background: url("images/Technical.jpg") no-repeat -9999px -9999px; }
+#pl4 { background: url("images/Conference.jpg") no-repeat -9999px -9999px; }
+#pl5 { background: url("images/Cultural.jpg") no-repeat -9999px -9999px; }
+#pl6 { background: url("technical/images/Technical.jpg") no-repeat -9999px -9999px; }
+#pl7 { background: url("cultural/images/Cultural.jpg") no-repeat -9999px -9999px; }
+#pl8 { background: url("centraltech/images/CT.jpg") no-repeat -9999px -9999px; }
+
+#home_link {
+  position: fixed;
+  left: 20px;
+  top: 20px;
+  z-index: 1000;
+  color: #0f0f0f;
+  cursor: pointer;
+  display: inline-block;
+  font-family: 'gt_walsheim',serif;
+  font-size: 21px;
+  height: 60px;
+  line-height: 60px;
+  margin: 130px auto 0;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: all 1s ease-in-out 1s;
+  width: 60px;
+  border: none;
+  background: transparent;
+}
+.home_link_line {
+	position: fixed;
+  z-index: 1000;
+  background-color: #0f0f0f;
+  height: 1px;
+  position: absolute;
+  transform: rotate(-45deg);
+  transition: all 0.5s ease-in-out 0s;
+  width: 100%;
+}
+#line_top {
+    left: -25px;
+    top: 5px;
+}
+#line_bottom {
+  bottom: 5px;
+  right: -25px;
+}
+
+#line_left, #line_right {
+  transform: rotate(45deg);
+  transition: all 0.5s ease-in-out 0s;
+}
+
+#line_left {
+  left: 25px;
+  top: 5px;
+}
+#line_right {
+  bottom: 5px;
+  right: 25px;
+}
+
+#home_link:hover #line_left,
+#home_link:hover #line_right,
+#home_link:hover #line_top,
+#home_link:hover #line_bottom {
+  width: 10px;
+}
+
+#home_link:hover #line_left {
+  top: -30px;
+}
+#home_link:hover #line_right {
+  bottom: -30px;
+}
+
+#home_link:hover #line_top {
+
+  top: 30px;
+}
+#home_link:hover #line_bottom {
+  bottom: 30px;
+  right: -25px;
+}
+</style>
+
+
+
+  <!--<script type="text/javascript">
+// 	alert("(");
+	
+	$(document).ready(function() {
+// 		alert(")");
+		document.getElementById("loader").style.visible="hidden";
+	});
+  </script>-->
+
+</head>
+
+<body style="background:white; height: 100%;">
+  <center>
+  
+  <div class="loader" id="loader" style="height: 100%; width: 100%; background-color: #ffffff; z-index: 9900; position: fixed; top: 0px; left: 0px;">
+	<img src="images/pl.gif" style="margin-top: 18%;">
+  </div>
+  
+<div id="pl1">
+<div id="pl2">
+<div id="pl3">
+<div id="pl4">
+<div id="pl5">
+<div id="pl6">
+<div id="pl7">
+<div id="pl8">
+
+
+
+</div>
+  
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+
+    <img src="images/ddulogo.png" style="z-index:1000; position: fixed; height:9.5em; width:8em; right: 3%; margin-top: 0%; opacity: 0.9;">
+
+	<img src="images/logo1.png.png" style="z-index:1000; position: fixed; height:8em; width:8em; left: 3%; margin-top: 1%; opacity: 0.8;">
+	<center>
+	<div style="z-index: 1000; position: fixed; top: 1em; width: 100%; text-align: center;">
+		<h1 style="opacity: 0.6; font-family : FreeMono">Dharmsinh Desai University</h1>
+	</div>
+	</center>
+
+   <div class="col-sm-1">
+        
+       </div> 
+      </center>
+	<a href="welcome.html" style="text-decoration:none; font-family:'Open 
+Sans', sans-serif; color:#4a4b4c;" >
+	<button id="home_link" style="position: fixed; right: 0px; top: 400px;">
+  <div id="line_top" class="home_link_line"></div>
+  <div id="line_bottom" class="home_link_line"></div>
+  <div id="line_left" class="home_link_line"></div>
+<div id="line_right" class="home_link_line"></div>
+Enter
+</button>
+</a>
+	<canvas id='canv' style="position: fixed; top: 0px;"></canvas>
+
+	<style>
+		@import url(https://fonts.googleapis.com/css?family=Tangerine);
+body{
+  width:100%; 
+  margin:0;
+  overflow:hidden;
+}
+
+
+
+</style>
+
+<script>
+	
+
+var c = document.getElementById("canv");
+var $ = c.getContext("2d");
+var w = c.width = window.innerWidth;
+var h = c.height = window.innerHeight;
+// alert(c);
+function txt() {
+  var t   =  "Felicific 2k17".split("").join(String.fromCharCode(0x2004));
+  $.font = "6em Tangerine";
+  $.fillStyle = 'hsla(0, 0%,20%, 1)';
+  $.fillText(t, (c.width - $.measureText(t).width) * 0.5, c.height * 0.5);
+}
+
+var rad = 250, til = 1, num = 5;
+var alph = 0.9, pov = 100; 
+var midX = w / 2, midY = h / 2;
+var maxZ = pov - 2, cnt = til - 1; 
+var _arr = {}, dump = {};
+var spX = 0.1, spY = 0.1, spZ = 0.1;
+var grav = -0, psz = 5;
+var xMid = 0, yMid = 0, zMid = -3 - rad;
+var dth = -750, ang = 0; 
+var sp = 2 * Math.PI / 360;
+anim();
+
+function anim() {
+  window.requestAnimationFrame(anim);
+  cnt++;
+  if (cnt >= til) {
+    cnt = 0;
+    for (i = 0; i < num; i++) {
+      theta = Math.random() * 2 * Math.PI;
+      phi = Math.acos(Math.random() * 2 - 1);
+      _x = rad * Math.sin(phi) * Math.cos(theta);
+      _y = rad * Math.sin(phi) * Math.sin(theta);
+      _z = rad * Math.cos(phi);
+      var p = add(_x, yMid + _y, zMid + _z, 0.005 * _x, 0.002 * _y, 0.002 * _z);
+      p.a = 120; p.b = 120; p.c = 460;
+      p.va = 0; p.vb = alph; p.vc = 0;
+      p.rem = 120 + Math.random() * 20;
+      p.mvX = 0; p.mvY = grav; p.mvZ = 0;
+    }
+  }
+  ang = (ang + sp) + (2 * Math.PI);
+  sin = Math.sin(ang);
+  cos = Math.cos(ang);
+  var g = $.createRadialGradient(c.width, c.width,0, c.height, c.height, c.width);
+  g.addColorStop(0,'hsla(0,0%,80%,1)');
+  g.addColorStop(0.5, 'hsla(0,0%,95%,1)');
+  g.addColorStop(1, 'hsla(255,255%,255%,1)');
+  $.fillStyle = g;
+  $.fillRect(0, 0, w, h);
+  p = _arr.first;
+  while (p != null) {
+    pnxt = p.next; p.go++;
+    if (p.go > p.rem) {
+      p.vx += p.mvX + spX * (Math.random() * 2 - 1);
+      p.vy += p.mvY + spY * (Math.random() * 2 - 1);
+      p.vz += p.mvZ + spZ * (Math.random() * 2 - 1);
+      p.x += p.vx;
+      p.y += p.vy;
+      p.z += p.vz;
+    }
+    rotX = cos * p.x + sin * (p.z - zMid);
+    rotZ = -sin * p.x + cos * (p.z - zMid) + zMid;
+    m = pov / (pov - rotZ);
+    p.px = rotX * m + midX;
+    p.py = p.y * m + midY;
+    if (p.go < p.a + p.b + p.c) {
+      if (p.go < p.a)
+        p.alpha = (p.vb - p.va) / p.a * p.go + p.va;
+      else if (p.go < p.a + p.b)
+        p.alpha = p.vb/2;
+      else if (p.go < p.a + p.b + p.c)
+        p.alpha = (p.vc - p.vb) / p.c * (p.go - p.a - p.b) + p.vb;
+    } else
+      p.end = true;
+    if ((p.px > w) || (p.px < 0) || (p.py < 0) || (p.py > h) || (rotZ > maxZ))
+      rng = true;
+    else 
+      rng = false;
+    if (rng || p.end)fin(p);
+    else {
+      dalph = (1 - rotZ / dth);
+      dalph = (dalph > 1) ? 1 : ((dalph < 0) ? 0 : dalph);
+      $.fillStyle = 'hsla(0, 0%, 5%, '+p.alpha+')';
+      $.beginPath();
+      $.fillRect(p.px, p.py, m*psz, m*psz);
+      $.fill();
+    }
+    p = pnxt;
+  }
+  txt();
+}
+
+function add(_x, _y, _z, vx0, vy0, vz0) {
+  var np;
+  if (dump.first != null) {
+    np = dump.first;
+    if (np.next != null) {
+      dump.first = np.next;
+      np.next.prev = null;
+    } else dump.first = null;
+  }
+  else
+    np = {};
+  if (_arr.first == null) {
+    _arr.first = np;
+    np.prev = null;
+    np.next = null;
+  } else {
+    np.next = _arr.first;
+    _arr.first.prev = np;
+    _arr.first = np;
+    np.prev = null;
+  }
+  np.x = _x; np.y = _y; np.z = _z;
+  np.vx = vx0; np.vy = vy0; np.vz = vz0;
+  np.go = 0; np.end = false;
+  if (Math.random() < 0.5) np.rt = true;
+  else np.rt = false;
+  return np;
+}
+
+function fin(p) {
+  if (_arr.first == p) {
+    if (p.next != null) {
+      p.next.prev = null;
+      _arr.first = p.next;
+    } else _arr.first = null;
+  } else {
+    if (p.next == null) p.prev.next = null;
+    else {
+      p.prev.next = p.next;
+      p.next.prev = p.prev;
+    }
+  }
+  if (dump.first == null) {
+    dump.first = p;
+    p.prev = null;
+    p.next = null;
+  } else {
+    p.next = dump.first;
+    dump.first.prev = p;
+    dump.first = p;
+    p.prev = null;
+  }
+}
+window.addEventListener('resize',function(){
+  c.width = w = window.innerWidth;
+  c.height = h = window.innerHeight;
+}, false);
+
+document.getElementById("loader").style.visibility = "hidden";
+</script>
+
+
+</body>
+
+
+</html>

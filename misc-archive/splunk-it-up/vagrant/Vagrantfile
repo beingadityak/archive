@@ -1,0 +1,23 @@
+# -*- mode: ruby -*-
+# vi: set ft=ruby :
+
+Vagrant.configure("2") do |config|
+  config.ssh.forward_agent = true
+  
+  ram_size = "1024"
+  ip = "192.168.14.4"
+  box = "ubuntu/trusty64"
+
+  config.vm.provider "virtualbox" do |vb|
+     vb.memory = "#{ram_size}"
+  end
+
+  config.vm.define "splunkinstance" do |splunkvm|
+    splunkvm.vm.box = "#{box}"
+    splunkvm.vm.hostname = "splunkvm"
+    splunkvm.vm.box_check_update = false
+    splunkvm.vm.synced_folder "../data", "/splunk_data"
+    splunkvm.vm.network "private_network", ip: "#{ip}"
+    config.vm.provision 'shell', path: 'scripts/bootstrap.sh'
+  end
+end

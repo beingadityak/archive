@@ -1,0 +1,1 @@
+Keep the data required for your Splunk VM in this folder. It will be available in /splunk_data in the VM.

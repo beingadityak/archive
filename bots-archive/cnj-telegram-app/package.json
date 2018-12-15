@@ -1,0 +1,29 @@
+{
+  "name": "cnj-telegram-app",
+  "version": "1.0.0",
+  "description": "A Telegram Web bot app for sending jokes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start" : "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://www.github.com/beingadityak/cnj-telegram-app"
+  },
+  "keywords": [
+    "telegram",
+    "web",
+    "app",
+    "bot",
+    "jokes"
+  ],
+  "author": "beingadityak",
+  "license": "ISC",
+  "dependencies": {
+    "node-telegram-bot-api": "^0.25.0",
+    "q": "^1.4.1",
+    "request": "^2.79.0",
+    "underscore": "^1.8.3"
+  }
+}

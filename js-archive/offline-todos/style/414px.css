@@ -1,0 +1,7 @@
+@media screen and (max-width:414px)
+{
+	#page-wrapper{
+		width:80%;
+		word-wrap: break-word;
+	}
+}

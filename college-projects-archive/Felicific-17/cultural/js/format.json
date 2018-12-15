@@ -1,0 +1,72 @@
+data={
+   "technical":{
+      "ce":{
+         "name":"Computer Engineering",
+         "tag":"Insilico",
+         "totalevents":5,
+         "first":{
+            "name":"harsh",
+            "tagline":"sodiwala",
+            "description":"asdhasjdsad\r\nasdkaljdhasasdhasjdsad\r\nasdkaljdhasasdhasjdsad\r\nasdkaljdhasasdhasjdsad\r\nasdkaljdhasasdhasjdsad\r\nasdkaljdhasasdhasjdsad\r\nasdkaljdhas",
+            "rules":"asdhasjdsad\r\nasdkaljdhasasdhasjdsad\r\nasdkaljdhasasdhasjdsad\r\nasdkaljdhasasdhasjdsad\r\nasdkaljdhasasdhasjdsad\r\nasdkaljdhasasdhasjdsad\r\nasdkaljdhas",
+            "date":"",
+            "time":"",
+            "venue":"",
+            "fees":"",
+            "contact":""
+         },
+         "second":{
+            "name":"Nothing",
+            "tagline":"",
+            "description":"",
+            "rules":"",
+            "teamsize":null,
+            "date":"",
+            "time":"",
+            "venue":"",
+            "fees":"",
+            "contact":""
+         },
+         "third":{
+            "name":"harsh sodiwala",
+            "tagline":"hrshs sodiwla",
+            "description":"ksdlsdjhj",
+            "rules":"hjhkjhkj",
+            "teamsize":null,
+            "date":"12\/12\/12",
+            "time":"12:12:12",
+            "venue":"qweqwe",
+            "fees":"1233",
+            "contact":"sdasdas"
+         },
+         "forth":{
+            "name":"Quiz-o-web",
+            "tagline":"Web design",
+            "description":"Beyond the realms of academics this event provides the opportunity to dust the cob webs from the corners of brains of emerging young nurtured technicians. So stretch your wrists get that kink out of your neck and prepare your fingers to fly",
+            "rules":"1.\tElimination Round: Both participants will be given a set of questions which will be based on web designing to check their knowledge of web designing.Qualification for the next round will be based on ranking. <br\/>\t\t\t\t\tTime Given: 30 Minutes.\r\n2.\tFinal Round: Team will have to create a small web site on a given definition. \t\t\t\t\tTime Given: 4 Hours. \r\nRules: \t\t\t\r\n1.\tFinal result will be based on marks of both rounds.\t\t\t\r\n2.\tInternet access will be allowed only for final Round. \t\r\n3.\tParticipants can use any platform to design web site. No restriction on languages, frameworks or platforms.",
+            "teamsize":null,
+            "date":"8th March 2016",
+            "time":"12 to 2",
+            "venue":"CE Lab2",
+            "fees":"60 Rs\/- per Team",
+            "contact":"Khushboo Mehta\r\nM.: 8000037733\r\nEmail id: khushboomehta1995@gmail.com"
+         },
+         "fifth":{
+            "name":"l",
+            "tagline":"l",
+            "description":"l",
+            "rules":"l",
+            "date":"l",
+            "time":"l",
+            "venue":"l",
+            "fees":"l",
+            "contact":"l"
+         }
+      },
+      "it":{
+         "name":"Infortmtion Technology ",
+         "tag":"Tech-crusade",
+         "totalevents":0
+      }
+   }
+}

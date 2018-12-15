@@ -1,0 +1,29 @@
+{
+  "name": "node-todo-app",
+  "version": "1.0.0",
+  "description": "A simple To-DO App created in MEAN stack",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://www.github.com/beingadityak/node-todo-app"
+  },
+  "keywords": [
+    "todo",
+    "app",
+    "mean",
+    "stack",
+    "nodejs"
+  ],
+  "author": "beingadityak",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.16.0",
+    "express": "^4.14.1",
+    "method-override": "^2.3.7",
+    "mongoose": "^4.8.0",
+    "morgan": "^1.7.0"
+  }
+}

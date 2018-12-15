@@ -1,0 +1,38 @@
+
+
+<div id="modal-' + nums[eventNum] + '" class="reveal-modal" style="opacity: 0.1; filter: Alpha(opacity=50); background-color: rgba(255,255,255,0.0); height: 100%;">
+   <div calass="container">
+      <div class="row">
+         <div class="col-md-4">
+            <div class="row" style="margin: 5px; height: 50%; margin-bottom: 10px;">
+               <div style="background-color: #f0f0f0; padding: 7px; vertical-align: top;">
+                  <h3>' + data.technical[id][nums[eventNum]]["name"].replace(/\r\n/g,"<br>") + '</h3>
+                  <h4>
+                  ' + data.technical[id][nums[eventNum]]["tagline"].replace(/\r\n/g,"<br>") + '
+               </div>
+            </div>
+            <div class="row" style="margin: 5px; height: 50%;">
+               <div style="background-color: #f0f0f0; padding: 7px; vertical-align: top; font-size: 1.7em;"><b>Date : </b>' + data.technical[id][nums[eventNum]]["date"].replace(/\r\n/g,"<br>") + '<br><br><b>Venue : </b>' + data.technical[id][nums[eventNum]]["venue"].replace(/\r\n/g,"<br>") + '<br><br><b>Time </b> ' + data.technical[id][nums[eventNum]]["time"].replace(/\r\n/g,"<br>") + '<br></div>
+            </div>
+         </div>
+         <div class="col-md-8" style="padding: 5px;">
+            <div style="background-color: #f0f0f0; padding: 7px;">
+               <h3>About </h3>
+               <hr style="border: 1px solid #afafaf;">
+               ' + data.technical[id][nums[eventNum]]["description"].replace(/\r\n/g,"<br>") + '<br><br>
+               <h3>Rules</h3>
+               <hr style="border: 1px solid #afafaf;">
+               ' + data.technical[id][nums[eventNum]]["rules"].replace(/\r\n/g,"<br>") + '<br>
+               <h4><b>Team : </b>' + data.technical[id][nums[eventNum]]["teamsize"].replace(/\r\n/g,"<br>") + '<br><b>Registration Fees : </b> ' + data.technical[id][nums[eventNum]]["fees"].replace(/\r\n/g,"<br>") + '</h4>
+               <br>
+               <h3>Coordinators : </h3>
+               <hr style="border: 1px solid #afafaf;">
+               <h4>
+               ' + data.technical[id][nums[eventNum]]["contact"].replace(/\r\n/g,"<br>") + ' <br/>
+            </div>
+         </div>
+      </div>
+   </div>
+   <a class="close-reveal-modal">X</a>
+</div>
+

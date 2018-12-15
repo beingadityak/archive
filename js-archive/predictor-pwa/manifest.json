@@ -1,0 +1,35 @@
+{
+  "name":"DDIT Predictor",
+  "short_name":"Predictor",
+  "start_url":"./index.html",
+  "background_color":"#2682BF",
+  "theme_color":"#3A99D7",
+  "display":"standalone",
+  "orientation":"portrait",
+  "icons":[{
+      "src" : "images/icons/predictor32.png",
+      "sizes" : "32x32",
+      "type" : "image/png"
+  },
+  {
+      "src" : "images/icons/predictor64.png",
+      "sizes" : "64x64",
+      "type" : "image/png"
+  },
+  {
+      "src" : "images/icons/predictor128.png",
+      "sizes" : "128x128",
+      "type" : "image/png"
+  },
+  {
+      "src" : "images/icons/predictor256.png",
+      "sizes" : "256x256",
+      "type" : "image/png"
+  },
+  {
+      "src" : "images/icons/predictor512.png",
+      "sizes" : "512x512",
+      "type" : "image/png"
+  }
+]
+}

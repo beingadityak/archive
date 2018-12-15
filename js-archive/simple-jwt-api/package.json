@@ -1,0 +1,33 @@
+{
+  "name": "simple-jwt-api",
+  "version": "1.0.0",
+  "description": "a simple app that demonstrates JWT authentication in a REST API",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/beingadityak/simple-jwt-api.git"
+  },
+  "keywords": [
+    "jet",
+    "api",
+    "rest",
+    "web-service"
+  ],
+  "author": "beingadityak",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/beingadityak/simple-jwt-api/issues"
+  },
+  "homepage": "https://github.com/beingadityak/simple-jwt-api#readme",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "jsonwebtoken": "^7.3.0",
+    "mongoose": "^4.9.1",
+    "morgan": "^1.8.1"
+  }
+}

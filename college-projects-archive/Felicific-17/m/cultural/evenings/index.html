@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href='http://fonts.googleapis.com/css?family=Vollkorn|Open+Sans:400,700' rel='stylesheet' type='text/css'>
+
+    <link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
+    <link rel="stylesheet" href="css/style.css"> <!-- Resource style -->
+    <script src="../../js/modernizr.js"></script> <!-- Modernizr -->
+    <link rel="stylesheet" href="../../css/down_arrow.css">
+    <link rel="stylesheet" href="../css/menu.css">
+
+    <title>CE - Felicific '17</title>
+</head>
+<body id="dept_body">
+<main class="cd-main">
+    <nav role="navigation">
+    <div id="menuToggle">
+        <!--
+        A fake / hidden checkbox is used as click reciever,
+        so you can use the :checked selector on it.
+        -->
+        <input type="checkbox" id="dept_menu"/>
+
+        <!--
+        Some spans to act as a hamburger.
+
+        They are acting like a real hamburger,
+        not that McDonalds stuff.
+        -->
+        <span></span>
+        <span></span>
+        <span></span>
+
+        <!--
+        Too bad the menu has to be inside of the button
+        but hey, it's pure CSS magic.
+        -->
+        <ul id="menu">
+            <a href="../../index.html"><li>Home</li></a>
+            <hr/>
+            <a href="../../cultural/day1"><li>Day 1</li></a>
+            <a href="../../cultural/day2"><li>Day 2</li></a>
+            <a href="../../cultural/day3"><li>Day 3</li></a>
+            <a href="../../cultural/day4"><li>Day 4</li></a>
+            <a href="../../cultural/day5"><li>Day 5</li></a>
+            <hr>
+            <a href="../../technical.html"><li>Technical</li></a>
+            <a href="../../technical/centraltech"><li>Central Events</li></a>
+
+        </ul>
+    </div>
+</nav>
+    <header id="header_touch">
+        <div>
+            <h1>Day 5</h1>
+        </div>
+        <div>
+                <a id="down_arrow" class="ca3-scroll-down-link ca3-scroll-down-arrow scroller" href="#card_gallery_swipe"></a>
+        </div>
+    </header>
+    <center>
+        <ul class="cd-gallery" id="card_gallery_swipe">
+            <li class="cd-item">
+                <a href="item-1.html">
+                    <div>
+                        <h2>Title 1</h2>
+                    </div>
+                </a>
+            </li>
+
+            <li class="cd-item">
+                <a href="item-2.html">
+                    <div>
+                        <h2>Title 2</h2>
+                    </div>
+                </a>
+            </li>
+
+            <li class="cd-item">
+                <a class="dark-text" href="item-3.html">
+                    <div>
+                        <h2>Title 3</h2>
+                    </div>
+                </a>
+            </li>
+
+            <li class="cd-item">
+                <a href="item-4.html">
+                    <div>
+                        <h2>Title 4</h2>
+                    </div>
+                </a>
+            </li>
+        </ul> <!-- .cd-gallery -->
+    </center>
+</main> <!-- .cd-main -->
+
+<div class="cd-folding-panel">
+
+    <div class="fold-left"></div> <!-- this is the left fold -->
+
+    <div class="fold-right"></div> <!-- this is the right fold -->
+
+    <div class="cd-fold-content">
+        <!-- content will be loaded using javascript -->
+    </div>
+
+    <a class="cd-close" href="#0"></a>
+</div> <!-- .cd-folding-panel -->
+
+<script src="../js/jquery-2.1.1.js"></script>
+<script src="../../js/jquery.touchSwipe.min.js"></script>
+<script src="../js/main.js"></script> <!-- Resource jQuery -->
+<script src="../../js/scroller.js"></script>
+<script src="../../js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href='http://fonts.googleapis.com/css?family=Vollkorn|Open+Sans:400,700' rel='stylesheet' type='text/css'>
+
+    <link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
+    <link rel="stylesheet" href="css/style.css"> <!-- Resource style -->
+    <link rel="stylesheet" href="../../css/down_arrow.css">
+    <link rel="stylesheet" href="../css/menu.css">
+
+    <title>CE - Felicific '17</title>
+</head>
+<body id="dept_body">
+<main class="cd-main">
+    <nav role="navigation">
+    <div id="menuToggle">
+        <!--
+        A fake / hidden checkbox is used as click reciever,
+        so you can use the :checked selector on it.
+        -->
+        <input type="checkbox" id="dept_menu"/>
+
+        <!--
+        Some spans to act as a hamburger.
+
+        They are acting like a real hamburger,
+        not that McDonalds stuff.
+        -->
+        <span></span>
+        <span></span>
+        <span></span>
+
+        <!--
+        Too bad the menu has to be inside of the button
+        but hey, it's pure CSS magic.
+        -->
+        <ul id="menu">
+            <a href="../../index.html"><li>Home</li></a>
+            <hr/>
+            <a href="../ce"><li>Insilico (CE)</li></a>
+            <a href="../ch"><li>Collisions (CH)</li></a>
+            <a href="../cl"><li>Creato (CL)</li></a>
+            <a href="../ec"><li>Resonance (EC)</li></a>
+            <a href="../ic"><li>Instronics (IC)</li></a>
+            <a href="../it"><li>Tech Crusade (IT)</li></a>
+            <a href="../bca"><li>Techno Kshetra (BCA)</li></a>
+            <a href="../mba"><li>Bizz Brainz (MBA)</li></a>
+            <a href="../mh"><li>Dimensions (MH)</li></a>
+            <hr>
+            <a href="../../cultural.html"><li>Cultural</li></a>
+            <a href="../centraltech"><li>Central Events</li></a>
+
+        </ul>
+    </div>
+</nav>
+    <header id="header_touch">
+        <div>
+                <a id="down_arrow" class="ca3-scroll-down-link ca3-scroll-down-arrow scroller" href="#card_gallery_swipe"></a>
+        </div>
+    </header>
+    <center>
+        <ul class="cd-gallery" id="card_gallery_swipe">
+            <li class="cd-item">
+                <a href="../../event_pages/ce_first.html">
+                    <div>
+                        <h2>CodeJam</h2>
+                    </div>
+                </a>
+            </li>
+
+            <li class="cd-item">
+                <a href="../../event_pages/ce_second.html">
+                    <div>
+                        <h2>The Geek</h2>
+                    </div>
+                </a>
+            </li>
+
+            <li class="cd-item">
+                <a href="../../event_pages/ce_third.html">
+                    <div>
+                        <h2>Android Man</h2>
+                    </div>
+                </a>
+            </li>
+
+            <li class="cd-item">
+                <a href="../../event_pages/ce_forth.html">
+                    <div>
+                        <h2>Hardware Rush</h2>
+                    </div>
+                </a>
+            </li>
+
+            <li class="cd-item">
+                <a href="../../event_pages/ce_fifth.html">
+                    <div>
+                        <h2>Gaming-FIFA</h2>
+                    </div>
+                </a>
+            </li>
+
+            <li class="cd-item">
+                <a href="../../event_pages/ce_sixth.html">
+                    <div>
+                        <h2>Gaming Counter Strike 1.6</h2>
+                    </div>
+                </a>
+            </li>
+        </ul> <!-- .cd-gallery -->
+    </center>
+</main> <!-- .cd-main -->
+
+<div class="cd-folding-panel">
+
+    <div class="fold-left"></div> <!-- this is the left fold -->
+
+    <div class="fold-right"></div> <!-- this is the right fold -->
+
+    <div class="cd-fold-content">
+        <!-- content will be loaded using javascript -->
+    </div>
+
+    <a class="cd-close" href="#0"></a>
+</div> <!-- .cd-folding-panel -->
+
+<script src="../js/jquery-2.1.1.js"></script>
+<script src="../../js/jquery.touchSwipe.min.js"></script>
+<script src="../js/main.js"></script> <!-- Resource jQuery -->
+<script src="../../js/scroller.js"></script>
+<script src="../../js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,16 @@
+{
+"name" : "node-online-ide",
+"version" : "1.0.0",
+"description" : "Online IDE in Node.js Using compilex library",
+"main" : "server.js",
+"author": "Aditya Krishnakumar",
+  "license": "LGPL-3.0",
+  "dependencies": {
+    "express":"4.14.0",
+    "compilex":"0.7.3"
+      },
+      "engines": {
+        "node":"0.10.x",
+        "npm":"1.3.x"
+      }
+}

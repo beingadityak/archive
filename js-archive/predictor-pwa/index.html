@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+      <link rel="stylesheet" href="style/dialog-polyfill.min.css">
+      <link rel = "manifest" href = "manifest.json">
+      <meta name = "theme-color" content="#3A99D7">
+      <meta name = "apple-mobile-web-app-capable" content="yes">
+      <meta name = "apple-mobile-web-app-status-bar-style" content="black-translucent">
+      <meta name = "apple-mobile-web-app-title" content="DDIT Predictor">
+      <title> DDIT Predictor </title>
+   </head>
+<body>
+   <!-- The drawer is always open in large screens. The header is always shown,  even in small screens. -->
+   <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header mdl-layout--fixed-tabs">
+      <header class="mdl-layout__header">
+         <!-- Top row, always visible -->
+         <div class="mdl-layout__header-row">
+         <!-- Title -->
+            <span class="mdl-layout-title">DDIT Predictor</span>
+         </div>
+      </header>
+      <main class="mdl-layout__content">
+            <div class="page-content">
+              		<div class="mdl-card mdl-shadow--6dp">
+              	  	<div class="mdl-card__supporting-text">
+              				<form action="#" id = "marks-form">
+                          <br/>
+                              <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                    						<input class="mdl-textfield__input" type="number" min="0" max="36" step="1" id="sess1marks" required />
+                    						<label class="mdl-textfield__label" for="sess1marks">Sessional 1 Marks</label>
+                    					</div>
+
+                              <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                    						<input class="mdl-textfield__input" type="number" min="0" max="36" step="1" id="sess2marks" required />
+                    						<label class="mdl-textfield__label" for="sess2marks">Sessional 2 Marks</label>
+                    					</div>
+
+                              <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                    						<input class="mdl-textfield__input" type="number" min="0" max="36" step="1" id="sess3marks" required />
+                    						<label class="mdl-textfield__label" for="sess3marks">Sessional 3 Marks</label>
+                    					</div>
+
+                              Total Marks :
+                              <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="total">
+                  						<input type="radio" id="total" value="150" name="total" class="mdl-radio__button" onchange="changeVal(this)">
+                  						<span class="mdl-radio__label">150</span>
+                  						</label>
+                  						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  						<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="total2">
+                  						<input type="radio" id="total2" value="100" name="total" class="mdl-radio__button" onchange="changeVal(this)">
+                  						<span class="mdl-radio__label">100</span>
+                  						</label>
+
+                              <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                  							<input class="mdl-textfield__input" type="number" min="0"max="50" step="1" id="pracviva" required>
+                  							<label class="mdl-textfield__label" for="pracviva">Practical+Viva Marks</label>
+                  						</div>
+
+                              <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                							  <input class="mdl-textfield__input" type="number" min="6"max="10" step="1" id="targetspi" required>
+                							  <label class="mdl-textfield__label" for="targetspi">Target SPI</label>
+                						  </div>
+
+                              <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                  							<input class="mdl-textfield__input" type="number" min="0"max="4" step="1" id="att" required>
+                  							<label class="mdl-textfield__label" for="att">Attendance Marks</label>
+                  						</div>
+              				</form>
+              			</div>
+                    <div class="mdl-card__actions mdl-card--border">
+                      <button class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect dialog-button" 
+                              id="btnpredict">
+                        Predict
+                      </button>
+                    </div>
+              		</div>
+
+                  <!-- Dialog that shows result -->
+                  <dialog id="dialog" class="mdl-dialog">
+                    <h3 class="mdl-dialog__title">Predictor Result</h3>
+                    <div class="mdl-dialog__content">
+                      <p>
+                          The Final result is as follows :
+                      </p>
+                      <ul>
+                        <li> Average Sessional Marks : <span class="avg-marks"></span></li>
+                        <li> Practical + Viva Marks : <span class="prac-viva-marks"></span></li>
+                        <li> Attendance Marks : <span class="att-marks"></span></li>
+                        <li> Total Marks : <span class="tot-marks"></span></li>
+                        <li> External Marks Range : <span class="min-ext-marks"></span> to <span class = "max-ext-marks"></span></li>
+                      </ul>
+                    </div>
+                    <div class="mdl-dialog__actions">
+                      <button type="button" class="mdl-button">OK</button>
+                    </div>
+                  </dialog>
+
+            </div>
+      </main>
+   </div>
+   <link async rel="stylesheet" href="style/material.min.css">
+   <link async rel="stylesheet" href="style/mystyle.css">
+   <script async src="script/material.min.js"></script>
+   <script async src="script/dialog-polyfill.min.js"></script>
+   <script src = "script/jquery.min.js"></script>
+   <script async src="script/app.js"></script>
+   <script type = "text/javascript">
+function changeVal(data)
+{
+	if(data.value == '100')
+		{
+			$("#pracviva").val("0");
+			$("#pracviva").attr("readonly","");
+		}
+	else if(data.value == '150')
+		{
+			$("#pracviva").val("");
+			$("#pracviva").removeAttr("readonly");
+		}
+}
+</script>
+<script type="text/javascript">
+(function() {
+  'use strict';
+  var dialogButton = document.querySelector('.dialog-button');
+  var dialog = document.querySelector('#dialog');
+  if (! dialog.showModal) {
+    dialogPolyfill.registerDialog(dialog);
+  }
+  dialogButton.addEventListener('click', function() {
+     dialog.showModal();
+  });
+  dialog.querySelector('button:not([disabled])')
+  .addEventListener('click', function() {
+    dialog.close();
+  });
+}());
+</script>
+</body>
+</html>

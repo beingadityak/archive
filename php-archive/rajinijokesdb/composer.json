@@ -1,0 +1,11 @@
+{
+    "autoload" : {
+      "psr-4" : {
+        "Rajinijokesdb\\" : "app/Rajinijokesdb"
+      }
+    },
+    "require": {
+        "slim/slim": "~2.0",
+        "illuminate/database": "5.0.*"
+    }
+}

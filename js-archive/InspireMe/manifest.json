@@ -1,0 +1,16 @@
+{
+    "name" : "InspireMe",
+    "description" : "This is a simple Chrome extension that gives you random new quote on your New Tab page",
+    "version" : "1.0.0",
+    "manifest_version" : 2,
+    "chrome_url_overrides" : 
+    {
+        "newtab" : "index.html"
+    },
+    "permissions" : [
+        "tabs",
+        "https://*.unsplash.com/*",
+        "bookmarks",
+        "unlimitedStorage"
+    ]
+}
